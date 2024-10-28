@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <title>Tower of Hanoi</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Tower of Hanoi</h1>
+    <p>Flyt alle skiver fra den første pind til den sidste pind ved at følge reglerne: Du kan kun flytte én skive ad gangen, og en større skive kan ikke placeres ovenpå en mindre skive.</p>
+    <div id="game">
+        <div class="peg" id="peg-0" data-peg="0">
+            <div class="base"></div>
+        </div>
+        <div class="peg" id="peg-1" data-peg="1">
+            <div class="base"></div>
+        </div>
+        <div class="peg" id="peg-2" data-peg="2">
+            <div class="base"></div>
+        </div>
+    </div>
+    <div id="controls">
+        <button id="solve">Løs Spillet</button>
+        <button id="reset">Reset</button>
+        <p>Antal træk: <span id="move-count">0</span></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
