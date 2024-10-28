@@ -13,13 +13,13 @@ En interaktiv udgave af Tower of Hanoi spillet med otte skiver og tre pinde.
 
 ## Live Demo
 
-[Se spillet her](https://brugernavn.github.io/tower-of-hanoi)
+[Se spillet her](https://zenkhalil.github.io/tower-of-hanoi/)
 
 ## Installation
 
 1. Klon repository:
     ```bash
-    git clone https://github.com/bruger/tower-of-hanoi.git
+    git clone https://github.com/zenkhalil/tower-of-hanoi.git
     ```
 2. Naviger til mappen:
     ```bash
